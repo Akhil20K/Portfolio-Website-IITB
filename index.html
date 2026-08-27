@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Akhil</title>
+        <link href="https://fonts.googleapis.com/css2?family=Coda:wght@400;800&display=swap" rel="stylesheet">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                font-family: "Coda", system-ui;
+                background: #eeeeee; 
+            }
+            nav{
+                background: #222831;
+                margin-top: 30px;
+                margin-left: 30px;
+                margin-right: 30px;
+                border-radius: 100px;
+                padding: 20px;
+                padding-left: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .Name{
+                font-size: 50px;
+                color: white;
+                padding-left: 40px;
+            }
+            li{
+                list-style: none;
+                display: inline;
+                
+            }
+            nav a{
+                color: white;
+                font-size: 20px;
+                margin-right: 50px;
+                text-decoration: none;
+                padding: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                border-radius: 90px;
+            }
+            nav a:hover{
+                background-color: white;
+                color: black;
+            }
+            .About{
+                margin-top: 10px;
+                padding: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .Content{
+                background-color: #393e46;
+                color: white;
+                padding: 50px;
+                margin-top: 100px;
+                border-radius: 20px;
+                margin-right: 200px;
+                margin-left: 30px;
+            }
+            .name{
+                font-size: 70px;
+            }  
+            .intro{
+                font-size: 30px;
+            }
+            .Image{
+                background-color: #0092ca;
+                padding: 20px;
+                border-radius: 200px;
+                margin-right: 30px;
+                margin-top: 100px;
+            }
+            .Image img{
+                border-radius: 200px;
+            }
+            .Content a{
+                margin-right: 30px;
+            }
+            .Content a img{
+                margin-left: 40px;
+                height: 70px;
+                width: 70px;
+            }
+            .Content a img:hover{
+                height:75px;
+                width: 75px;
+            }
+            .Education{
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+            .Table{
+                border-collapse: collapse;
+                margin: 25px;
+                font-size: 20px;
+                min-width: 400px;
+                margin-left: 200px;
+            }
+            .Table thead tr{
+                background-color: #393e46;
+                color: white;
+                text-align: center;
+                border-radius: 10px 10px 0 0;
+            }
+            .Table th, .Table td{
+                padding: 12px 25px;
+            }
+            .Table tbody tr{
+                border-bottom: 2px solid;
+            }
+            .ename{
+                font-size: 70px;
+                margin-left: 30px;
+            }
+            .skill-set{
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+            .skills{
+                display: flex;
+                justify-content: center;
+            }
+            .skills div{
+                margin-right: 30px;
+                font-size: 50px;
+                background-color: #393e46;
+                padding: 30px;
+                border-radius: 60px;
+            }
+            .skills div:hover{
+                background-color: #eeeeee;
+                color: black;
+                border-style: solid;
+            }
+            .hobbies{
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+            .hobbie{
+                font-size: 50px;
+                margin-left: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <p class="Name">Akhil</p>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skill Set</a></li>
+                <li><a href="#hobbie">Hobbies</a></li>
+            </ul>
+        </nav>
+        <div class="About" id="about">
+            <div class="Content">
+                <p class="name">About Me</p>
+                <hr>
+                <br>
+                <p class="intro">Hi, I’m Akhil. I’m currently pursuing an M.Tech in CSE as TA at IIT Bombay. 
+                    Graduated in B.Tech in CSE from IIIT Sri City. 
+                    I have a strong interest in computer systems, DSA and software development. 
+                    I enjoy solving challenging problems, building scalable applications, and continuously improving my technical skills through projects and competitive programming. 
+                    I’m always eager to learn new technologies and contribute to impactful software solutions.
+                </p>
+                <br>
+                <br>
+                <a href="https://www.linkedin.com/in/akhil-kasukurthi-38227b23a/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" alt="LinkedIn Profile">
+                </a>
+                 <a href="https://leetcode.com/u/lawli-et/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode Profile">
+                </a>
+                <a href="mailto:26M0831@iitb.ac.in">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail">
+                </a>
+            </div>
+            <div class="Image">
+                <img src="./Photo.JPG" alt="Profile Picture">
+            </div>
+        </div>
+        <div class="Education" id="education">
+            <p class="ename">Education</p>
+                <hr>
+            <table class="Table">
+                <thead>
+                    <tr>
+                        <th>Education</th>
+                        <th>Institute</th>
+                        <th>Field of Study</th>
+                        <th>Timeline</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Master of Technology
+                        </td>
+                        <td>
+                            Indian Institute of Technology, Bombay
+                        </td>
+                        <td>
+                            Computer Science and Engineering
+                        </td>
+                        <td>
+                            2026 - Present
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>
+                            Bachelor of Technology
+                        </td>
+                        <td>
+                            Indian Institute of Information Technology SriCity, Chittoor
+                        </td>
+                        <td>
+                            Computer Science and Engineering
+                        </td>
+                        <td>
+                            2021 - 2025
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>
+                            Intermediate Education
+                        </td>
+                        <td>
+                            FIITJEE
+                        </td>
+                        <td>
+                            MPC
+                        </td>
+                        <td>
+                            2019 - 2021
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>
+                            Secondary Education
+                        </td>
+                        <td>
+                            FIITJEE
+                        </td>
+                        <td>
+                            State Board of Education
+                        </td>
+                        <td>
+                            2019
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <div class="skill-set" id="skills">
+            <p class="ename">Skill Set</p>
+            <hr>
+            <br>
+            <br>
+            <div class="skills">
+                <div>Python</div>
+                <div>MySQL</div>
+                <div>Data Structures and Algorithms</div>
+                <div>Postman</div>
+            </div>
+        </div>
+        <br>
+        <div class="hobbies" id="hobbie">
+            <p class="ename">Hobbies</p>
+            <hr>
+            <ol class="hobbie">
+                <li>Gym,</li>
+                <li>Anime,</li>
+                <li>Music,</li>
+            </ol>
+        </div>
+    </body>
+</html>
